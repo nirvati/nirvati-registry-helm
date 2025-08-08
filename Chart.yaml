@@ -1,24 +1,16 @@
 apiVersion: v1
-name: harbor
+name: nirvati-registry
 version: 1.4.0-dev
 appVersion: dev
 description: An open source trusted cloud native registry that stores, signs, and scans content
 keywords:
 - docker
 - registry
-- harbor
-home: https://goharbor.io
-icon: https://raw.githubusercontent.com/goharbor/website/main/static/img/logos/harbor-icon-color.png
+home: https://nirvati.de
 sources:
-- https://github.com/goharbor/harbor
-- https://github.com/goharbor/harbor-helm
+- https://github.com/nirvati/nirvati-registry
+- https://github.com/nirvati/nirvati-registry-helm
 maintainers:
-- name: Yan Wang
-  email: yan-yw.wang@broadcom.com
-- name: Wenkai Yin
-  email: wenkai.yin@broadcom.com
-- name: Miner Yang
-  email: miner.yang@broadcom.com
-- name: Shengwen Yu
-  email: shengwen.yu@broadcom.com
+- name: Aaron Dewes
+  email: aaron@nirvati.org
 engine: gotpl
