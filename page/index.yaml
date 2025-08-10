@@ -1,0 +1,23 @@
+apiVersion: v1
+entries:
+  nirvati-registry:
+  - apiVersion: v1
+    appVersion: dev
+    created: "2025-08-10T16:29:08.128341625+02:00"
+    description: A customized container registry for Nirvati
+    digest: 3679f4c6bb04a869dcbfba26408690d4f58c71767ebfa7bd6e99712441f20623
+    home: https://nirvati.de
+    keywords:
+    - docker
+    - registry
+    maintainers:
+    - email: aaron@nirvati.org
+      name: Aaron Dewes
+    name: nirvati-registry
+    sources:
+    - https://github.com/nirvati/nirvati-registry
+    - https://github.com/nirvati/nirvati-registry-helm
+    urls:
+    - https://nirvati.github.io/nirvati-registry-helm/nirvati-registry-1.0.0-dev.tgz
+    version: 1.0.0-dev
+generated: "2025-08-10T16:29:08.12628157+02:00"
