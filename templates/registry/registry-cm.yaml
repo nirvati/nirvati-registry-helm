@@ -161,7 +161,7 @@ data:
         pullzone: {{ $storage.bunny.pullZone }}
       {{- end }}
       cache:
-        layerinfo: redis
+        blobdescriptor: redis
       maintenance:
         uploadpurging:
           {{- if .Values.registry.upload_purging.enabled }}
@@ -177,7 +177,7 @@ data:
       redirect:
         disable: {{ $storage.disableredirect }}
     redis:
-      addr: {{ template "harbor.redis.addr" . }}
+      addrs: {{ template "harbor.redis.addr" . }}
       {{- if eq "redis+sentinel" (include "harbor.redis.scheme" .) }}
       sentinelMasterSet: {{ template "harbor.redis.masterSet" . }}
       {{- end }}
