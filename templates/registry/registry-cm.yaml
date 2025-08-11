@@ -177,7 +177,8 @@ data:
       redirect:
         disable: {{ $storage.disableredirect }}
     redis:
-      addrs: {{ template "harbor.redis.addr" . }}
+      addrs:
+        - {{ template "harbor.redis.addr" . }}
       {{- if eq "redis+sentinel" (include "harbor.redis.scheme" .) }}
       sentinelMasterSet: {{ template "harbor.redis.masterSet" . }}
       {{- end }}

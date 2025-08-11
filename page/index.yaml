@@ -3,7 +3,26 @@ entries:
   nirvati-registry:
   - apiVersion: v1
     appVersion: dev
-    created: "2025-08-11T21:37:47.110548787+02:00"
+    created: "2025-08-11T21:45:41.978780067+02:00"
+    description: A customized container registry for Nirvati
+    digest: 50c1e546166f518fc8ad38cf251e16c9626fabca87128de2c78cb57205dd1c20
+    home: https://nirvati.de
+    keywords:
+    - docker
+    - registry
+    maintainers:
+    - email: aaron@nirvati.org
+      name: Aaron Dewes
+    name: nirvati-registry
+    sources:
+    - https://github.com/nirvati/nirvati-registry
+    - https://github.com/nirvati/nirvati-registry-helm
+    urls:
+    - https://nirvati.github.io/nirvati-registry-helm/nirvati-registry-1.0.3-dev.tgz
+    version: 1.0.3-dev
+  - apiVersion: v1
+    appVersion: dev
+    created: "2025-08-11T21:45:41.974311461+02:00"
     description: A customized container registry for Nirvati
     digest: b638919140c9c3f91b3eb7e8a4d1458f1e4c69da9563e65c8af91fdb8d03fccd
     home: https://nirvati.de
@@ -22,7 +41,7 @@ entries:
     version: 1.0.2-dev
   - apiVersion: v1
     appVersion: dev
-    created: "2025-08-11T21:37:47.105498006+02:00"
+    created: "2025-08-11T21:45:41.968782575+02:00"
     description: A customized container registry for Nirvati
     digest: 7bbdcb75b294c43d651d18a8012cb9003b5c611ebed14b1e3769546b855311a9
     home: https://nirvati.de
@@ -41,7 +60,7 @@ entries:
     version: 1.0.1-dev
   - apiVersion: v1
     appVersion: dev
-    created: "2025-08-11T21:37:47.101234334+02:00"
+    created: "2025-08-11T21:45:41.963063225+02:00"
     description: A customized container registry for Nirvati
     digest: 3679f4c6bb04a869dcbfba26408690d4f58c71767ebfa7bd6e99712441f20623
     home: https://nirvati.de
@@ -58,4 +77,4 @@ entries:
     urls:
     - https://nirvati.github.io/nirvati-registry-helm/nirvati-registry-1.0.0-dev.tgz
     version: 1.0.0-dev
-generated: "2025-08-11T21:37:47.095582535+02:00"
+generated: "2025-08-11T21:45:41.958575454+02:00"
