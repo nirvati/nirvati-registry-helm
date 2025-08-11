@@ -153,6 +153,12 @@ data:
         {{- if $storage.oss.rootdirectory }}
         rootdirectory: {{ $storage.oss.rootdirectory }}
         {{- end }}
+      {{- else if eq $type "bunny" }}
+      bunny:
+        storage_zone: {{ $storage.bunny.storageZone }}
+        api_key: {{ $storage.bunny.apiKey }}
+        hostname: {{ $storage.bunny.hostName }}
+        pullzone: {{ $storage.bunny.pullZone }}
       {{- end }}
       cache:
         layerinfo: redis

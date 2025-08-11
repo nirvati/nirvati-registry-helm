@@ -266,6 +266,11 @@ persistence:
       #secure: true
       #chunksize: 10M
       #rootdirectory: rootdirectory
+    bunny:
+      storageZone: storagezone
+      apiKey: apikey
+      hostName: hostname
+      pullZone: pullzone
 
 # The initial password of Harbor admin. Change it from portal after launching Harbor
 # or give an existing secret for it
